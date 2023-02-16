@@ -115,10 +115,7 @@ header{
     align-items: center;
     margin-bottom: 30px;
     margin-left: 310px;
-    /* margin-right: 423px; */
-    /* justify-content: space-between; */
-
-}
+   }
 .img-grid-container-left{
     /* background-color: red; */
     display: grid;
@@ -165,7 +162,6 @@ header{
 }
 .features-para{
     /* background-color: #FF900E; */
-    /* width:100px; */
     font-weight: 400;
     font-size: 10px;
     line-height: 26px;
@@ -186,12 +182,6 @@ header{
     margin-right:200px;
     margin-bottom: 130px;
     display: flex;
-    
-   
-
-}
-.experience-article{
-
 }
 .experience-header{
     border-left: 5px solid orange;
@@ -211,21 +201,13 @@ header{
     line-height: 26px;
     margin-bottom: 20px;
 }
-.experience-accordions{
-
-}
-
 /* ----------------------------image div */
 .article-img-container img{
-  
-    
     width: 438px;
     height: 625px;
     position: relative;
-   
 }
 .article-button{
-
     width: 176px;
     height: 71px;
     background-color: #FF900E;
@@ -242,8 +224,8 @@ header{
     z-index: +1;
     margin-left: 0px;
 }
+
 /* ----------------------------accordions  */
-.experience-accordions{}
 .accordion{
     width: 400px;
     height: 100%;
@@ -253,7 +235,6 @@ header{
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 5px;
-    /* margin-left: 10px; */
 }
 .accordion h1{
     font-weight: 600;
@@ -267,10 +248,10 @@ header{
 }
 /* -----------------------------------------------------accordion section ends */
 
-/* ---------------------------------------------------------------Experience section ends here */
+/* -----------------------------------------------------Experience section ends here */
 
 
-/* ---------------------------------------------------------------facts section starts here */
+/* -----------------------------------------------------Facts section starts here */
 
 .facts-section{
     /* background-color: aqua; */
@@ -292,8 +273,7 @@ header{
     width: 113px;
     height: 108px;
     border-radius: 8px;
-    
-}
+    }
 /* ---------------------------------------------------------------facts section ends here */
 
 /* ---------------------------------------------------------------sponsors section starts here */
@@ -309,3 +289,26 @@ header{
     margin: 10px 240px 130px 240px;
 }
 /* ---------------------------------------------------------------sponsors section ends here */
+
+
+/* ---------------------------------------------------------------Footer section starts here */
+
+.footer-texts{
+    background-color: #FFF4E7;
+    color: #424242;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 10px 240px 180px 240px;
+    padding: 15px;
+    border-radius: 8px;
+}
+/* ---------------------------------------------------------------Footer section ends here */
+
+/* ============================== Responsive section ============================================= */
+
+@media screen {
+    
+}
