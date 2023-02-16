@@ -263,6 +263,11 @@ header{
     color: #131313;
     margin-bottom: 100px;
 }
+ .facts-para{
+    margin: 0px 10px 0px 5px;
+    color: #727272;
+    font-size: 10px;
+}
 .facts-flex-container{
     display: flex;
 }
@@ -307,8 +312,124 @@ header{
 }
 /* ---------------------------------------------------------------Footer section ends here */
 
-/* ============================== Responsive section ============================================= */
+/* ====================================== Responsive section ==================================== */
+@media only screen and (max-width: 576px) {
+    .header{
+        height: 100%;
+        width: 100%;
+    }
+    .navbar{
+        flex-wrap: wrap;
+        
+    }
+    .nav-menu ul{
+        margin-right: 21px;
+    }
+    .banner-titles{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .banner-title-para{
+        font-size: 10px;
+        line-height: 20px;
 
-@media screen {
-    
-}
+    }
+    .img-container img{
+        width: 362px;
+        height: 363px;
+        border-radius: 8px;
+        
+    }
+    .features-section{
+        margin-left: 19px;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .img-grid-container-left{
+        gap: 15px;
+        grid-template-columns: 1fr;
+    }
+    .features-text-container-right p{
+        text-align: left;
+    }
+    .big-text{
+        font-size: 35px;
+    }
+    .golden-text{
+        font-size: 45px;
+    }
+    .features-para{
+        font-size: 10px;
+        line-height: 20px;
+        margin-right: 55px;
+        margin-top: 14px;
+    }
+    .accordion{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .experience-container {
+        margin-top: 42px;
+        margin-left: 11px;
+        margin-right: 200px;
+        margin-bottom: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-img-container img{
+        width: 350px;
+        height: 583px;
+    }
+    .facts-section{
+        margin-top: 0px;
+        margin-left: 4px;
+        margin-right: 197px;
+        margin-bottom: 0px;
+    }
+    .facts-header{
+        margin-bottom: 36px;
+        margin-left: 131px;
+        text-align: center;
+    }
+    .facts-section h1{
+        font-size: 35px;
+        margin-left: 0px;
+    }
+    .facts-para{
+        margin: 8px -103px -8px -72px;
+    }
+    .facts-flex-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        margin-left: 11px;
+    }
+    .sponsors-header{
+        margin-top: -10px;
+    }
+    .sponsors-logo{
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: center;
+        line-height: 120px;
+        margin: 10px 240px 130px 199px;
+    }
+    .footer-texts {
+        background-color: #FFF4E7;
+        color: #424242;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 23px;
+        text-align: center;
+        margin: 0px 26px 39px 19px;
+        padding: 22px;
+        border-radius: 8px;
+    }
+  }
+  /* ====================================== Responsive section ==================================== */
+
+
+
+
