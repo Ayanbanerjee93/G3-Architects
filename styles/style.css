@@ -1,4 +1,4 @@
-/* =====Common==CSS===========*/
+/* ==========================================Common==CSS===========================*/
 
 *{
     font-family: 'Open Sans', sans-serif;
@@ -11,8 +11,10 @@ body{
     background-color: #FFFFFF;
 }
 
-/*============================== */
-/* ---------------------------------------------------------------------Header starts here */
+/*================================================================================= */
+
+
+/*=========================================Header starts here================================== */
 /* this is nav */
 header{
     background-color: #efe4d5;
@@ -45,7 +47,7 @@ header{
     line-height: 26px;
     text-align: center;
 }
-/* --------------------------------------------Header banner section */
+/* --------------------------------------------------------Header banner section */
 .banner-title-section{
     /* background-color: thistle; */
     text-align: center;
@@ -99,12 +101,12 @@ header{
     
 }
 
-/* ----------------------------------------------------------------Header ends */
-/* --------------------------------------------------------------main starts here */
-.main{
-    
-}    
+/*===============================================Header ends===================================== */
 
+
+/*============================================= Main starts here================================= */
+ 
+/* ------------------------------------------------------Feature list section */
 .features-section{
     /* background-color: green; */
     margin-top: 96px;
@@ -171,4 +173,95 @@ header{
     color: #727272;
     margin-top: 28px;
    
+}
+/* ---------------------------------------------------------------Features list section ends here */
+
+
+/* ---------------------------------------------------------------Experience section starts here */
+
+.experience-container{
+    /* background-color: #727272; */
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom: 130px;
+    display: flex;
+    
+   
+
+}
+.experience-article{
+
+}
+.experience-header{
+    border-left: 5px solid orange;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-left: 10px;
+    
+}
+.experience-texts{
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: left;
+    width: 321px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.experience-accordions{
+
+}
+
+/* ----------------------------image div */
+.article-img-container img{
+  
+    
+    width: 438px;
+    height: 625px;
+    position: relative;
+   
+}
+.article-button{
+
+    width: 176px;
+    height: 71px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 27px 44px 42px 29px;
+    text-align: center;
+    border-radius: 8px;
+    float: left;
+    position: absolute;
+    left: 760px;
+    top: 2470px;
+    z-index: +1;
+    margin-left: 0px;
+}
+/* ----------------------------accordions  */
+.experience-accordions{}
+.accordion{
+    width: 400px;
+    height: 100%;
+    margin-left: 0px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 5px;
+    /* margin-left: 10px; */
+}
+.accordion h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+.accordion-para{
+    margin-top: 10px;
+    color: #727272;
+    font-size: 10px;
 }
