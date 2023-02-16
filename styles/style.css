@@ -7,7 +7,9 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0 auto;
 }
-
+body{
+    background-color: #FFFFFF;
+}
 
 /*============================== */
 /* ---------------------------------------------------------------------Header starts here */
@@ -15,7 +17,8 @@
 header{
     background-color: #efe4d5;
     width: 100%;
-    height: 1437px;
+    height: 100%;
+    padding-bottom: 50px;
 }
 .navbar{
     /* background-color: red; */
@@ -77,16 +80,95 @@ header{
     font-size: 20px;
     line-height: 23px;
     text-align: center;
+    transition: background-color 1s;
 
+}
+.explore-more-btn:hover{
+    background-color: crimson;
+    color: #FFFFFF;
 }
 .img-container{
     margin-top: 50px;
-    margin-top: 30px;
+    
 }
 .img-container img{
     width: 1100px;
     height: 550px;
     border-radius: 8px;
    
-}
     
+}
+
+/* ----------------------------------------------------------------Header ends */
+/* --------------------------------------------------------------main starts here */
+.main{
+    
+}    
+
+.features-section{
+    /* background-color: green; */
+    margin-top: 96px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 310px;
+    /* margin-right: 423px; */
+    /* justify-content: space-between; */
+
+}
+.img-grid-container-left{
+    /* background-color: red; */
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2,1fr) ;
+}
+.img-grid-container-left img{
+    width: 233px;
+    height: 249px;
+    transition: 1s all ease-in-out;
+    
+}
+.img-grid-container-left img:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    cursor: pointer;
+    transition: transform 1s;
+
+}
+.features-text-container-right{
+    /* background-color: aquamarine; */
+    width: 5037px;
+    margin-left: 46px;
+    text-align: left;
+
+    
+}
+.features-text{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.golden-text{
+    color:#FF900E; 
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.big-text{
+    color:#131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px
+}
+.features-para{
+    /* background-color: #FF900E; */
+    /* width:100px; */
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 26px;
+    margin-right: 370px;
+    color: #727272;
+    margin-top: 28px;
+   
+}
