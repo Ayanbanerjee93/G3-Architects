@@ -1,3 +1,12 @@
-h1{
-    color: green;
+/* =====Common==CSS===========*/
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
 }
+
+
+/*============================== */
